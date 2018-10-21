@@ -1,14 +1,15 @@
 <% @messages.each do |message| %>
   <div class="container">
-    <div class="col-md-10 offset-md-1">
-      <div class="message">
-        <h2 class="message-title"><%= message.title %></h2>
-        <%= link_to "Join In", message, class: "btn-custom" %> 
-      </div>
-      <div class="post-message text-right">
-        <%= link_to "Post Message", new_message_path %>
-      </div>
-    </div>  
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="message">
+          <h2 class="message-title"><%= message.title %></h2>
+          <%= link_to "Join In", message, class: "btn-custom" %> 
+        </div>
+      </div>  
+    </div>
   </div>
 <% end %>
-
+  <div class="post-message text-right">
+    <%= link_to "Post Message", new_message_path %>
+  </div>
