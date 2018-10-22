@@ -12,3 +12,207 @@
  *
  */
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Faster+One|Merriweather');
+
+body {
+  background-image: url("field.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.message {
+  box-sizing: border-box;
+  background-color:  #ffffff;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 1.4em;
+  margin: 30px;
+  border: 2px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=70); 
+}
+
+div.message-show {
+  box-sizing: border-box;
+  background-color:  #ffffff;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 1.4em;
+  margin: 30px;
+  border: 2px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=70); 
+}
+
+h2.message-title {
+  color: #000000;
+  font-family: 'Merriweather', serif;
+  font-weight: bold; 
+}
+
+a.btn.btn-primary {
+  background-color: blue;
+  border: 2px solid black;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+a.btn.btn-primary:hover {
+ animation: bounce 1s;
+}
+
+h2 {
+  color: #000000;
+  font-family: 'Merriweather', serif;
+  font-weight: bold; 
+}
+
+p.message-desc {
+ color: #000000; 
+}
+
+p.message-posted-by {
+  color: #000000;
+}
+
+a.navbar-brand {
+  margin: 10px;
+  display: inline-block;
+   vertical-align: middle;
+   -webkit-transform: translateZ(0);
+           transform: translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+   -webkit-backface-visibility: hidden;
+           backface-visibility: hidden;
+       -moz-osx-font-smoothing: grayscale;
+   -webkit-transition-duration: 0.3s;
+           transition-duration: 0.3s;
+   -webkit-transition-property: transform;
+           transition-property: transform;
+  text-decoration: none;
+  font-family: 'Diplomata', cursive;
+  font-size: 30px;
+  color: #B6F002;
+  font-family: 'Faster One', cursive;
+  font-size: 2.1em;
+  padding-left: 20px;
+}
+
+a.navbar-brand:hover, 
+  a.hip:active {
+   -webkit-transform: scale(1.1);
+           transform: scale(1.1);
+  color: red;
+}
+
+
+nav.navbar.navbar-expand-lg {
+  background-color: #000000;
+}
+
+a.nav.link {
+  padding-left: 30px;
+  padding-top: 17px;
+}
+
+div.col-md-3.offset-md-4.sign-up {
+  box-sizing: border-box;
+  background-color:  #ffffff;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 400px;
+  padding: 1.4em;
+  border: 2px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=70); 
+}
+
+input.btn.btn-primary {
+  background-color: blue;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+
+a.btn.btn-success {
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+
+input.btn.btn-success {
+  margin-bottom: 10px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+div.col-md-3.offset-md-4.login {
+   box-sizing: border-box;
+  background-color:  #ffffff;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 400px;
+  padding: 1.4em;
+  border: 2px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=70); 
+}
+
+a.btn.custom {
+  background-color: blue;
+  border: 2px solid black;
+  color: white;
+}
+
+a.btn.custom:hover {
+  background-color: #1F7BE3;
+}
+
+input.btn.reset {
+  margin-bottom: 10px;
+  background-color: #FB140D ;
+  border: 2px solid black;
+  color: white;
+}
+
+input.btn.reset:hover {
+  background-color: #D65E5A;
+}
+
+a.login {
+  margin-right: 15px;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+
+a.singup {
+  margin-right: 10px;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+
+a.btn.btn-dark {
+  background-color: black;
+}
+
+a.btn.btn-dark:hover {
+  background-color: #C5C3C3;
+}
