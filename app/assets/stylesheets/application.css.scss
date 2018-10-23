@@ -147,9 +147,14 @@ div.col-md-3.offset-md-4.sign-up {
 }
 
 input.btn.btn-primary {
+  color: white;
   background-color: blue;
   margin-bottom: 10px;
   border: 2px solid black;
+}
+
+input.btn.btn-primary:hover {
+  background-color: #1F7BE3;
 }
 
 a.btn.btn-success {
@@ -158,6 +163,7 @@ a.btn.btn-success {
 }
 
 input.btn.btn-success {
+  color: white;
   margin-bottom: 10px;
   border: 2px solid black;
   margin-bottom: 10px;
@@ -215,4 +221,59 @@ a.btn.btn-dark {
 
 a.btn.btn-dark:hover {
   background-color: #C5C3C3;
+}
+
+div.col-md-8.offset-md-2.fix {
+  box-sizing: border-box;
+  background-color:  #ffffff;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 170px;
+  padding: 1.4em;
+  border: 2px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+div.col-md-8.offset-md-2.edit {
+  box-sizing: border-box;
+  background-color:  #ffffff;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 170px;
+  padding: 1.4em;
+  border: 2px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+input.btn.btn-custom {
+  color: blue;
+}
+
+input.btn.btn-custom:hover {
+  color: #b3ff66;
+}
+
+input.btn {
+  color: blue;
+}
+
+input.btn:hover {
+  color: #b3ff66;
+}
+
+a.signout {
+  padding-right: 20px;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+a.nav.link {
+  padding-top: 25px;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
 }
